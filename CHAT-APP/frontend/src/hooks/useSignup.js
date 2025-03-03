@@ -27,9 +27,6 @@ const useSignup = () => {
         }
 
         const data = await res.json();
- 
-
-
         
         // Save user data in local storage
         localStorage.setItem("chat-user", JSON.stringify(data));
